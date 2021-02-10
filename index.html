@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="images/samsung.png" alt="logo">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#specs-section" class="nav-link">Specs</a></li>
+                <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
+                <li><a href="#price-section" class="nav-link">Price</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main">
+
+        <section id="product-video">
+            <iframe id="video" src="https://www.youtube.com/embed/2gRD511jqx4?autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <h1>Galaxy Tab S6 Lite</h1>
+
+        <section id="specs-section">
+            <hr>
+            <h3>Specs</h3>
+            <div id="specs">
+                <img src="images/with-pen.png" alt="">
+                <div class="specs-text">
+                    <h4>Light. Thin. Fits right in.</h4>
+                    <ul>
+                        <li>Precise, Ergonomic S Pen</li>
+                        <li>64GB 4GB RAM, 128GB 4GB RAM</li>
+                        <li>10.4" Immersive Display</li>
+                        <li>Dual Speakers</li>
+                        <li>One UI 2 on Android</li>
+                        <li>Chispset: Exynos 9611</li>
+                        <li>Main camera: 8 MP 1080p@30fps</li>
+                        <li>Selfie Camera: 5 MP 1080p@30fps</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery-section">
+            <hr>
+            <h3>Gallery</h3>
+            <div id="gallery">
+                <img src="images/side.png" alt="">
+                <img src="images/front.png" alt="">
+                <img src="images/back.png" alt="">
+            </div>
+        </section>
+
+
+        <section id="price-section">
+            <h3>Price</h3>
+            <div class="price-card">
+                <h3>64GB</h3>
+                <p>Php 24,990.00</p>
+            </div>
+            <div class="price-card">
+                <h3>128GB</h3>
+                <p>Php 27,990.00</p>
+            </div>
+        </section>
+
+
+        <section id="form-section">
+            <h3>Get updates about the product.</h3>
+            <form id="form" action="">
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+                <input type="submit" id="submit">
+            </form>
+        </section>
+        
+    </div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
